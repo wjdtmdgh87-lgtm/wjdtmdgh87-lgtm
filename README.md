@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,50:0EA5E9,100:6366F1&height=200&section=header&text=%EC%A0%95%EC%8A%B9%ED%98%B8&fontSize=54&fontColor=ffffff&desc=Vision%20AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%20%C2%B7%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%99%80%20%EB%AA%A8%EB%8D%B8%EC%9D%98%20%ED%95%9C%EA%B3%84%EB%A5%BC%20%EB%B6%84%EC%84%9D%ED%95%A9%EB%8B%88%EB%8B%A4&descSize=16&descAlignY=72&animation=fadeIn" alt="정승호 프로필 배너" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,50:0EA5E9,100:6366F1&height=200&section=header&text=%EC%A0%95%EC%8A%B9%ED%98%B8&fontSize=54&fontColor=ffffff&desc=Vision%20AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%20%C2%B7%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%99%80%20%EB%AA%A8%EB%8D%B8%EC%9D%98%20%ED%95%9C%EA%B3%84%EB%A5%BC%20%EB%B6%84%EC%84%9D%ED%95%A9%EB%8B%88%EB%8B%A4&descSize=16&descAlignY=72&animation=fadeIn" alt="Jeong Seung Ho 프로필 배너" />
 
 <br />
 
