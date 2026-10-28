@@ -26,11 +26,11 @@
 | 프로젝트 | 한 일 | 주요 스택 |
 |---|---|---|
 | **[PILL SIGHT](https://github.com/wjdtmdgh87-lgtm/pill-sight)**<br /><sub>경구약제 73종 탐지·식별 · PM · 6인</sub> | 팀 일정·역할 조율, 얼리스톱이 꺼진 학습 설정 발견, 브랜치 통합과 데이터 분할 검증 | YOLO12n · WBF · EfficientNet-B3 · EasyOCR |
-| **[방울이](https://github.com/jaeheonki/smart-water-meter-kr)**<br /><sub>수도 계량기 자동 검침 · 데이터·모델 · 4인</sub> | 계량기 사진 약 200장 라벨링, OCR 한계 확인 후 2단계 검출 구조로 전환, YOLOX-s 선정 | YOLOX-s · ONNX Runtime · OpenCV |
-| **[It's mine](https://github.com/Codeit-Part3-6Team/Codeit-Part3-6Team-Project)**<br /><sub>공공조달 RFP 분석 RAG · 데이터 엔지니어 · 4인</sub> | HWP5 파서로 RFP 본문 복원, 메타데이터 보완, 평가 골든셋 12차 개선 | HWP5 파싱 · LangChain · BM25 · RRF |
-| **메뉴재판**<br /><sub>LLM 멀티 에이전트 메뉴 선정 · 에이전트·프롬프트 · 4인</sub> | 변호인·검사·판사 프롬프트와 페르소나 설계, JSON 구조화 출력과 오류 처리 | LangGraph · LiteLLM · Pydantic |
-| **[광고 생성 서비스](https://github.com/Codeit-AI10-Part4-3Team/AI10-Part4-3Team-Advanced-Project)**<br /><sub>제품 사진으로 인스타그램 광고 생성 · PM·QA · 4인</sub> | 기획·회의 운영, 광고 카피 골든셋 26건과 가드레일 비교 하네스 구축 | FastAPI · OpenAI API · Docker · GCP |
-| **EviRevBench** `진행 중`<br /><sub>근거 변경 시 RAG 답변 수정 벤치마크 · 독립 검증·통계 · 5인</sub> | 분석 계획과 결정 기록 작성, 팀원 PR 독립 재검증, 비교 실험의 분모·불확실성 설계 | Python · 통계 분석 · 재현성 검증 |
+| **[방울이](https://github.com/wjdtmdgh87-lgtm/smart-water-meter-kr)**<br /><sub>수도 계량기 자동 검침 · 데이터·모델 · 4인</sub> | 계량기 사진 약 200장 라벨링, OCR 한계 확인 후 2단계 검출 구조로 전환, YOLOX-s 선정 | YOLOX-s · ONNX Runtime · OpenCV |
+| **[It's mine](https://github.com/wjdtmdgh87-lgtm/its-mine-rfp-rag)**<br /><sub>공공조달 RFP 분석 RAG · 데이터 엔지니어 · 4인</sub> | HWP5 파서로 RFP 본문 복원, 메타데이터 보완, 평가 골든셋 12차 개선 | HWP5 파싱 · LangChain · BM25 · RRF |
+| **[메뉴재판](https://github.com/wjdtmdgh87-lgtm/menu-debate-court)**<br /><sub>LLM 멀티 에이전트 메뉴 선정 · 에이전트·프롬프트 · 4인</sub> | 변호인·검사·판사 프롬프트와 페르소나 설계, JSON 구조화 출력과 오류 처리 | LangGraph · LiteLLM · Pydantic |
+| **[광고 생성 서비스](https://github.com/wjdtmdgh87-lgtm/ai-ad-generator)**<br /><sub>제품 사진으로 인스타그램 광고 생성 · PM·QA · 4인</sub> | 기획·회의 운영, 광고 카피 골든셋 26건과 가드레일 비교 하네스 구축 | FastAPI · OpenAI API · Docker · GCP |
+| **[EviRevBench](https://github.com/wjdtmdgh87-lgtm/EviRevBench)** `진행 중`<br /><sub>근거 변경 시 RAG 답변 수정 벤치마크 · 독립 검증·통계 · 5인</sub> | 분석 계획과 결정 기록 작성, 팀원 PR 독립 재검증, 비교 실험의 분모·불확실성 설계 | Python · 통계 분석 · 재현성 검증 |
 
 ---
 
@@ -41,7 +41,7 @@
 수도 계량기 사진에서 검침값을 읽어 사용량과 요금으로 바꿔 주는 Android 앱입니다. 물-에너지 융합 포럼 공모전에 제출했습니다.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/jaeheonki/smart-water-meter-kr/main/.github/assets/readme/yolox-two-stage-pipeline.svg" alt="YOLOX-s 2단계 자동 검침 흐름" width="760" />
+  <img src="https://raw.githubusercontent.com/wjdtmdgh87-lgtm/smart-water-meter-kr/main/.github/assets/readme/yolox-two-stage-pipeline.svg" alt="YOLOX-s 2단계 자동 검침 흐름" width="760" />
 </div>
 
 - OCR이 7세그먼트 숫자를 읽지 못하는 것을 확인하고, 표시부 → 숫자 0~9를 차례로 검출하는 2단계 구조로 전환
@@ -51,10 +51,10 @@
 `표시부 검출 mAP@0.50 1.000 (내부 검증)` · `추론 108.44ms` · `실기기 E2E 완료 (팀)`
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/jaeheonki/smart-water-meter-kr/main/.github/assets/readme/device-e2e/home.png" alt="방울이 홈 화면" width="23%" />
-  <img src="https://raw.githubusercontent.com/jaeheonki/smart-water-meter-kr/main/.github/assets/readme/device-e2e/manual-reading.png" alt="검침 숫자 확인 화면" width="23%" />
-  <img src="https://raw.githubusercontent.com/jaeheonki/smart-water-meter-kr/main/.github/assets/readme/device-e2e/water-ledger.png" alt="물 가계부 화면" width="23%" />
-  <img src="https://raw.githubusercontent.com/jaeheonki/smart-water-meter-kr/main/.github/assets/readme/device-e2e/energy-report.png" alt="에너지 리포트 화면" width="23%" />
+  <img src="https://raw.githubusercontent.com/wjdtmdgh87-lgtm/smart-water-meter-kr/main/.github/assets/readme/device-e2e/home.png" alt="방울이 홈 화면" width="23%" />
+  <img src="https://raw.githubusercontent.com/wjdtmdgh87-lgtm/smart-water-meter-kr/main/.github/assets/readme/device-e2e/manual-reading.png" alt="검침 숫자 확인 화면" width="23%" />
+  <img src="https://raw.githubusercontent.com/wjdtmdgh87-lgtm/smart-water-meter-kr/main/.github/assets/readme/device-e2e/water-ledger.png" alt="물 가계부 화면" width="23%" />
+  <img src="https://raw.githubusercontent.com/wjdtmdgh87-lgtm/smart-water-meter-kr/main/.github/assets/readme/device-e2e/energy-report.png" alt="에너지 리포트 화면" width="23%" />
 </div>
 
 ### PILL SIGHT · 경구약제 탐지·식별
