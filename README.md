@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,50:0EA5E9,100:6366F1&height=200&section=header&text=%EC%A0%95%EC%8A%B9%ED%98%B8&fontSize=54&fontColor=ffffff&desc=Vision%20AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%20%C2%B7%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%99%80%20%EB%AA%A8%EB%8D%B8%EC%9D%98%20%ED%95%9C%EA%B3%84%EB%A5%BC%20%EB%B6%84%EC%84%9D%ED%95%A9%EB%8B%88%EB%8B%A4&descSize=16&descAlignY=72&animation=fadeIn" alt="Jeong Seung Ho 프로필 배너" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,50:0EA5E9,100:6366F1&height=200&section=header&text=%EC%A0%95%EC%8A%B9%ED%98%B8&fontSize=54&fontColor=ffffff&desc=Vision%20AI%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%20%C2%B7%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%80%ED%84%B0%20%ED%99%95%EC%9D%B8%ED%95%A9%EB%8B%88%EB%8B%A4&descSize=16&descAlignY=72&animation=fadeIn" alt="정승호 프로필 배너" />
 
 <br />
 
@@ -16,8 +16,8 @@
 
 ## 소개
 
-데이터와 모델의 한계를 분석해 실제 문제를 해결하는 Vision AI 엔지니어 정승호입니다.<br />
-이미지 라벨링부터 모델 선정까지 맡아 왔고, 모델을 바꾸기 전에 데이터와 평가 기준부터 확인합니다.
+데이터부터 확인하고, 숫자는 무엇을 잰 값인지 함께 말하는 Vision AI 엔지니어 정승호입니다.<br />
+라벨링부터 모델 선정까지 맡아 왔고, 모델을 바꾸기 전에 데이터와 평가 기준부터 확인합니다.
 
 ---
 
@@ -25,11 +25,11 @@
 
 | 프로젝트 | 한 일 | 주요 스택 |
 |---|---|---|
-| **[PILL SIGHT](https://github.com/wjdtmdgh87-lgtm/pill-sight)**<br /><sub>경구약제 73종 탐지·식별 · PM · 6인</sub> | 팀 일정·역할 조율, 얼리스톱이 꺼진 학습 설정 발견, 브랜치 통합과 데이터 분할 검증 | YOLO12n · WBF · EfficientNet-B3 · EasyOCR |
-| **[방울이](https://github.com/wjdtmdgh87-lgtm/smart-water-meter-kr)**<br /><sub>수도 계량기 자동 검침 · 데이터·모델 · 4인</sub> | 계량기 사진 약 200장 라벨링, OCR 한계 확인 후 2단계 검출 구조로 전환, YOLOX-s 선정 | YOLOX-s · ONNX Runtime · OpenCV |
-| **[It's mine](https://github.com/wjdtmdgh87-lgtm/its-mine-rfp-rag)**<br /><sub>공공조달 RFP 분석 RAG · 데이터 엔지니어 · 4인</sub> | HWP5 파서로 RFP 본문 복원, 메타데이터 보완, 평가 골든셋 12차 개선 | HWP5 파싱 · LangChain · BM25 · RRF |
-| **[메뉴재판](https://github.com/wjdtmdgh87-lgtm/menu-debate-court)**<br /><sub>LLM 멀티 에이전트 메뉴 선정 · 에이전트·프롬프트 · 4인</sub> | 변호인·검사·판사 프롬프트와 페르소나 설계, JSON 구조화 출력과 오류 처리 | LangGraph · LiteLLM · Pydantic |
-| **[광고 생성 서비스](https://github.com/wjdtmdgh87-lgtm/ai-ad-generator)**<br /><sub>제품 사진으로 인스타그램 광고 생성 · PM·QA · 4인</sub> | 기획·회의 운영, 광고 카피 골든셋 26건과 가드레일 비교 하네스 구축 | FastAPI · OpenAI API · Docker · GCP |
+| **[방울이](https://github.com/wjdtmdgh87-lgtm/smart-water-meter-kr)**<br /><sub>수도 계량기 자동 검침 · 데이터·모델 · 4인</sub> | 계량기 사진 약 200장 라벨링, OCR 한계 확인 후 2단계 검출 구조로 직접 전환·숫자 검출 모델 학습, YOLOX-s 공동 선정, 방향 점수 코드 작성 | YOLOX-s · ONNX Runtime · OpenCV |
+| **[PILL SIGHT](https://github.com/wjdtmdgh87-lgtm/pill-sight)**<br /><sub>경구약제 73종 탐지·식별 · PM · 6인</sub> | 일정·역할 조율, 조기 종료가 꺼진 학습 설정 발견, 0.99 mAP를 믿지 않고 테스트 이미지 육안 검수 제안, 데이터 분할 검증 스크립트 작성 | YOLO12n · WBF · EfficientNet-B3 · EasyOCR |
+| **[It's mine](https://github.com/wjdtmdgh87-lgtm/its-mine-rfp-rag)**<br /><sub>공공조달 RFP 분석 RAG · 데이터 엔지니어 · 4인</sub> | HWP5 파서로 RFP 98건 본문 복원, 메타데이터 결측 35건 → 0건, 골든셋에서 정답이 청크에 없던 77문항(22%) 정리 | HWP5 파싱 · LangChain · BM25 · RRF |
+| **[메뉴재판](https://github.com/wjdtmdgh87-lgtm/menu-debate-court)**<br /><sub>LLM 멀티 에이전트 메뉴 선정 · 에이전트·페르소나 · 4인</sub> | 변호인·검사·판사 프롬프트와 페르소나, 대사 생성 함수의 구조화 출력·재시도·전용 예외 처리 | LangGraph · LiteLLM · Pydantic |
+| **[광고 생성 서비스](https://github.com/wjdtmdgh87-lgtm/ai-ad-generator)**<br /><sub>제품 사진으로 인스타그램 광고 생성 · PM·QA · 4인</sub> | 기획·회의 운영, 광고 카피 골든셋 26건과 가드레일 on/off 수집 하네스 구축, 대조군 결과가 섞이던 집계 오류 수정 | FastAPI · OpenAI API · Docker · GCP |
 | **[EviRevBench](https://github.com/wjdtmdgh87-lgtm/EviRevBench)** `진행 중`<br /><sub>근거 변경 시 RAG 답변 수정 벤치마크 · 독립 검증·통계 · 5인</sub> | 분석 계획과 결정 기록 작성, 팀원 PR 독립 재검증, 비교 실험의 분모·불확실성 설계 | Python · 통계 분석 · 재현성 검증 |
 
 ---
@@ -44,11 +44,12 @@
   <img src="https://raw.githubusercontent.com/wjdtmdgh87-lgtm/smart-water-meter-kr/main/.github/assets/readme/yolox-two-stage-pipeline.svg" alt="YOLOX-s 2단계 자동 검침 흐름" width="760" />
 </div>
 
-- OCR이 7세그먼트 숫자를 읽지 못하는 것을 확인하고, 표시부 → 숫자 0~9를 차례로 검출하는 2단계 구조로 전환
-- 라이선스·추론 시간·ONNX 연동성을 기준으로 후보 5개 중 YOLOX-s 선정
-- 4방향 회전 처리를 제안하고, 회전 시 6과 9가 뒤바뀌는 문제를 찾아 방향별 비교에 반영
+- 라벨링하던 중 OCR이 기계식 롤러형 숫자를 읽지 못하는 것을 확인하고(검증 12장 모두 실패), 숫자 926개를 0~9로 다시 라벨링해 표시부 → 숫자 검출 2단계 구조로 전환
+- 숫자 검출 모델은 COCO 사전학습 YOLOX-s를 10클래스로 미세조정해 학습
+- 라이선스·추론 시간·ONNX 연동성을 기준으로 PM과 함께 YOLOX-s 선정
+- 4방향 회전을 제안하고, 회전 시 6과 9가 뒤바뀌는 문제를 방향 점수로 한 방향만 채택해 처리
 
-`표시부 검출 mAP@0.50 1.000 (내부 검증)` · `추론 108.44ms` · `실기기 E2E 완료 (팀)`
+`표시부 검출 mAP@0.50 1.000 (내부 검증)` · `숫자 검출 mAP@0.50 0.917 (검증 40장)` · `검침값 완전 일치 59.4% (프로젝트 후 재평가)` · `실기기 E2E 완료 (팀)`
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/wjdtmdgh87-lgtm/smart-water-meter-kr/main/.github/assets/readme/device-e2e/home.png" alt="방울이 홈 화면" width="23%" />
@@ -66,10 +67,11 @@ YOLO12n 5-Fold → WBF 앙상블 → 후처리 → EfficientNet-B3 재분류 →
 ```
 
 - 역할을 나누기 전에 전원이 데이터를 먼저 분석하도록 제안해, 라벨 누락과 클래스 불균형을 초기에 확인
-- 얼리스톱이 꺼진 채 300 epoch를 학습하던 설정을 발견하고, 공동 분석 후 epochs 150 · patience 30으로 조정
+- 조기 종료가 꺼진 채 300 epoch를 학습하던 설정을 발견하고, 팀 합의로 epochs 150 · patience 30으로 조정
+- 검증 mAP가 0.99로 나오자 합성 이미지가 학습·검증 fold에 함께 들어갔을 가능성을 의심해 테스트 이미지 육안 검수를 제안
 - 실험·모델 브랜치를 통합하고, fold 구성과 누락 파일을 검사하는 데이터 분할 검증 스크립트 작성
 
-`5-Fold 검증 mAP@0.50 0.994` · `테스트 832장 수동 검수: 3,229개 중 오판 3건`
+`5-Fold 검증 mAP@0.50 0.994` · `테스트 842장 육안 검수(약 이름·누락·위치): 알약 3,229개 중 오판 3건`
 
 ---
 
@@ -89,8 +91,11 @@ YOLO12n 5-Fold → WBF 앙상블 → 후처리 → EfficientNet-B3 재분류 →
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
 ![LiteLLM](https://img.shields.io/badge/LiteLLM-111827?style=flat-square)
 ![OpenAI API](https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
 
-**협업**<br />
+**서비스 · 협업**<br />
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
@@ -103,7 +108,7 @@ YOLO12n 5-Fold → WBF 앙상블 → 후처리 → EfficientNet-B3 재분류 →
 | | |
 | :--- | :--- |
 | **학력** | 건국대학교 물리학과 (2018.03 ~ 2026.02) |
-| **교육** | 코드잇 AI 엔지니어 과정 10기 |
+| **교육** | 코드잇 AI 엔지니어 과정 10기 (2026.02 ~ 2026.08) |
 | **이메일** | [wjdtmdgh87@gmail.com](mailto:wjdtmdgh87@gmail.com) |
 
 <div align="center">
